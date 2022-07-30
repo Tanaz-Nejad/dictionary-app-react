@@ -9,6 +9,7 @@ export default function Dictionary() {
   const [data, setData] = useState("");
 
   function handleResponse(response) {
+    console.log(response.data[0]);
     setData(response.data[0]);
   }
 
