@@ -40,8 +40,8 @@ export default function Dictionary(props) {
             <input
               type="search"
               onChange={keywordSearch}
-              className="searchForm"
               defaultValue={props.defaultCity}
+              className="searchForm"
             />
             <input type="submit" className="submitButton" />
           </form>

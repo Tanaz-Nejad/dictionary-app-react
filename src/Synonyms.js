@@ -8,7 +8,7 @@ export default function Synonyms(props) {
         {props.synonym.synonyms.map(function (words, index) {
           if (words.length) {
             return (
-              <ul>
+              <ul key={index}>
                 <li>{words}</li>
               </ul>
             );
