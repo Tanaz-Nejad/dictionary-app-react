@@ -12,7 +12,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultCity="Sunrise" />
+          <Dictionary defaultCity="Tea" />
         </main>
       </div>
     </div>
