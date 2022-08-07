@@ -1,0 +1,13 @@
+body {
+  background-color: #f9ecec;
+  margin: 0 auto;
+  max-width: 570px;
+}
+.App header {
+  margin-top: 20px;
+  text-align: center;
+}
+.App h1 {
+  display: inline;
+  margin: 20px;
+}
