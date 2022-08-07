@@ -47,6 +47,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
+          <h1 className="lookUp">What word do you want to look up?</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -56,6 +57,7 @@ export default function Dictionary(props) {
             />
             <input type="submit" className="submitButton" />
           </form>
+          <div className="hints">i.e. Sunset, Sunrise, Tea, Forest</div>
         </section>
         <Results data={data} />
         <Photos photo={photo} />

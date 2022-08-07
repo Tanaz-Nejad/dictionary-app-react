@@ -9,10 +9,10 @@ function App() {
       <div className="container">
         <header>
           <img src={dictionary_logo} alt="Dictionary" className="logo" />
-          <h1>Dictionary</h1>
+          <h1 className="dictionary">Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultCity="Tea" />
+          <Dictionary defaultCity="Sunset" />
         </main>
       </div>
     </div>

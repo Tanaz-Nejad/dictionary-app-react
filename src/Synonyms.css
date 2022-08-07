@@ -1,0 +1,8 @@
+.Synonyms .similar {
+  font-size: 20px;
+}
+
+.Synonyms .synonymsList {
+  list-style: none;
+  display: inline-block;
+}

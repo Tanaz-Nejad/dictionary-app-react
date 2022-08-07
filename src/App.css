@@ -2,12 +2,17 @@ body {
   background-color: #f9ecec;
   margin: 0 auto;
   max-width: 570px;
+  font-family: "Work Sans", sans-serif;
 }
 .App header {
-  margin-top: 20px;
+  margin: 20px 20px 5px 20px;
   text-align: center;
 }
-.App h1 {
+.App .dictionary {
   display: inline;
-  margin: 20px;
+  font-size: 52px;
+}
+.App .logo {
+  margin-right: 20px;
+  padding-bottom: 26px;
 }
